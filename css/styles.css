@@ -111,8 +111,8 @@ body {
 
 .navigation-item,
 .contacts-item {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-link,
@@ -151,12 +151,14 @@ body {
 .hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 252px;
-  padding-right: 252px;
+  /* padding-left: 252px;
+  padding-right: 252px; */
   text-align: center;
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   max-width: 696px;
 
@@ -192,6 +194,12 @@ body {
   color: var(--main-title-color);
 }
 
+.section {
+  /* background-color: #2f303a; */
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
   color: var(--main-title-color);
   font-weight: 700;
@@ -204,8 +212,8 @@ body {
 /* --------------------Advantages */
 
 .advantages-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 .advantages {
   display: flex;
@@ -232,8 +240,11 @@ body {
 }
 
 /* Options */
-.options {
+/* .options {
   padding-bottom: 94px;
+} */
+.options {
+  padding-top: 0;
 }
 
 .options-list {
@@ -252,8 +263,8 @@ body {
 }
 
 .team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .team-list {
@@ -274,10 +285,14 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-name {
   color: var(--main-title-color);
   font-weight: 500;
-  margin-top: 30px;
 }
 .team-info {
   color: var(--text-color);
@@ -291,14 +306,14 @@ body {
   background-color: #2f303a;
 }
 
-.footer-container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .logo-footer {
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -320,13 +335,12 @@ body {
 
 .footer-address {
   display: block;
-  padding-bottom: 9px;
 
   color: var(--second-title-color);
 }
 
-.footer-mail {
-  padding-bottom: 9px;
+.footer-items:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-mail,
@@ -344,11 +358,6 @@ body {
 /* ------------------PORTFOLIO */
 
 /* --------------------Filter */
-
-.filters-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .filters-list {
   display: flex;
@@ -397,13 +406,14 @@ body {
 
 .card-link {
   width: calc((100%-60px) / 3);
-  background: #ffffff;
-  border: transparent;
-  border: 1px solid #eeeeee;
 }
 
 .cards-text {
   padding: 20px 24px;
+  background: #ffffff;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-title {
