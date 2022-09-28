@@ -293,11 +293,17 @@ body {
 .team-name {
   color: var(--main-title-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .team-info {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: var(--text-color);
   font-weight: 400;
-  margin-top: 10px;
 }
 
 /* --------------------Footer */
